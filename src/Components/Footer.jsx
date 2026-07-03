@@ -1,20 +1,22 @@
 export default function Footer() {
   return (
     <>
-      <footer className="flex  items-center justify-between px-20 w-full pb-3 bg-[#0d0d16]/70   overflow-hidden backdrop-blur-sm hover:shadow-[0_0_40px_rgba(76,61,240,0.25)] transition-shadow hover:border-[#3d3d5c] duration-300 bg-gradient-to-r from-white via-[#FF9FFC] to-[#A855F7] bg-clip-text text-transparent">
-        <p className="mt-4 text-center">
-          Copyright © 2026 <a href="#"> Bhoomi Kaushik</a>. All rights
-          reservered.
+      <footer className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-0 px-4 sm:px-10 lg:px-20 w-full py-4 sm:pb-3 bg-[#0d0d16]/70 overflow-hidden backdrop-blur-sm hover:shadow-[0_0_40px_rgba(76,61,240,0.25)] transition-shadow hover:border-[#3d3d5c] duration-300">
+        <p className="text-center text-sm sm:text-base bg-gradient-to-r from-white via-[#FF9FFC] to-[#A855F7] bg-clip-text text-transparent">
+          Copyright © 2026 <a href="#">Bhoomi Kaushik</a>. All rights
+          reserved.
         </p>
-        <div className="flex items-center gap-4 mt-5">
-          <a
+        <div className="flex items-center gap-4">
+          < a
             href="https://www.linkedin.com/in/bhoomi-kaushik-145081356"
             target="_blank"
-            className="hover:-translate-y-0.5 transition-all duration-300  "
+            rel="noopener noreferrer"
+            className="hover:-translate-y-0.5 transition-all duration-300"
           >
             <svg
-              width="24"
-              height="24"
+              width="22"
+              height="22"
+              className="sm:w-6 sm:h-6"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -33,10 +35,12 @@ export default function Footer() {
             href="mailto:kaushikbhumika13@gmail.com"
             className="hover:-translate-y-0.5 transition-all duration-300"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <svg
-              width="24"
-              height="24"
+              width="22"
+              height="22"
+              className="sm:w-6 sm:h-6"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -67,10 +71,12 @@ export default function Footer() {
             href="https://github.com/bhumi-94"
             className="hover:-translate-y-0.5 transition-all duration-300"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <svg
-              width="24"
-              height="24"
+              width="22"
+              height="22"
+              className="sm:w-6 sm:h-6"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
