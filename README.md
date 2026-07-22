@@ -14,7 +14,6 @@ A modern, responsive personal portfolio website built to showcase my projects, s
 ![GitHub last commit](https://img.shields.io/github/last-commit/your-username/portfolio?style=for-the-badge&color=FF9FFC)
 ![GitHub repo size](https://img.shields.io/github/repo-size/your-username/portfolio?style=for-the-badge&color=A855F7)
 ![GitHub stars](https://img.shields.io/github/stars/your-username/portfolio?style=for-the-badge&color=FF9FFC)
-![Profile views](https://komarev.com/ghpvc/?username=your-username&style=for-the-badge&color=A855F7&label=PROFILE+VIEWS)
 
 </div>
 
