@@ -151,7 +151,7 @@ const Projects = () => {
                   Readiness Platform
                 </h1>
                 <span className="px-1 text-white/40 rounded-full text-sm whitespace-nowrap">
-                  Frontend
+                  Full Stack
                 </span>
               </div>
               <p className="text-white/60 text-sm mt-1">
