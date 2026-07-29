@@ -3,11 +3,10 @@ export default function Footer() {
     <>
       <footer className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-0 px-4 sm:px-10 lg:px-20 w-full py-4 sm:pb-3 bg-[#0d0d16]/70 overflow-hidden backdrop-blur-sm hover:shadow-[0_0_40px_rgba(76,61,240,0.25)] transition-shadow hover:border-[#3d3d5c] duration-300">
         <p className="text-center text-sm sm:text-base bg-gradient-to-r from-white via-[#FF9FFC] to-[#A855F7] bg-clip-text text-transparent">
-          Copyright © 2026 <a href="#">Bhoomi Kaushik</a>. All rights
-          reserved.
+          Copyright © 2026 <a href="#">Bhoomi Kaushik</a>. All rights reserved.
         </p>
         <div className="flex items-center gap-4">
-          < a
+          <a
             href="https://www.linkedin.com/in/bhoomi-kaushik-145081356"
             target="_blank"
             rel="noopener noreferrer"
@@ -29,6 +28,25 @@ export default function Footer() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
+            </svg>
+          </a>
+          {/* Contact */}
+          <a
+            href="tel:+917455920200"
+            className="hover:-translate-y-0.5 transition-all duration-300"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#FF9FFC"
+              strokeOpacity=".5"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.9.35 1.77.68 2.59a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.49-1.2a2 2 0 0 1 2.11-.45c.82.33 1.69.56 2.59.68A2 2 0 0 1 22 16.92z" />
             </svg>
           </a>
           <a
