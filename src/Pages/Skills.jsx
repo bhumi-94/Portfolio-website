@@ -59,6 +59,21 @@ const Skills = () => {
               </span>
             </div>
           </div>
+          <div className="mt-5 px-2">
+            <h3 className="text-sm text-white/90 px-2 mb-1">Redux Toolkit</h3>
+            <div className="relative flex items-center w-70 bg-gray-500/20 h-2 rounded-full">
+              <div
+                style={{
+                  background:
+                    "linear-gradient(90deg, #A855F7, #FF9FFC, #FFFFFF)",
+                }}
+                className=" h-2 rounded-full w-63"
+              ></div>
+              <span className="absolute inset-0 flex items-center justify-center text-xs font-semibold text-black">
+                80%
+              </span>
+            </div>
+          </div>
           {/* component-3 */}
           <div className="mt-5 px-2">
             <h3 className="text-sm text-white/90 px-2 mb-1">Tailwind CSS</h3>
@@ -179,7 +194,7 @@ const Skills = () => {
 
           {/* component-1*/}
           <div className="mt-5 px-2">
-            <h3 className="text-sm text-white/90 px-2 mb-1">PostgreSQL</h3>
+            <h3 className="text-sm text-white/90 px-2 mb-1">My SQL</h3>
             <div className="relative flex items-center w-70 bg-gray-500/20 h-2 rounded-full">
               <div
                 style={{
@@ -189,7 +204,7 @@ const Skills = () => {
                 className=" h-2 rounded-full w-63"
               ></div>
               <span className="absolute inset-0 flex items-center justify-center text-xs font-semibold text-black">
-                90%
+                80%
               </span>
             </div>
           </div>
